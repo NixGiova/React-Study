@@ -1,0 +1,18 @@
+{
+  "author": "",
+  "description": "",
+  "devDependencies": {
+    "standard": "^17.1.0"
+  },
+  "eslintConfig": {
+    "extends": "./node_modules/standard/eslintrc.json"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "main": "index.js",
+  "name": "miducourse",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.0"
+}

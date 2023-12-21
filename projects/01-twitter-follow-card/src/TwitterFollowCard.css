@@ -1,0 +1,73 @@
+.nx-followCard {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    font-size: .8rem;
+    justify-content: space-between;
+}
+
+.nx-followCard-header {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.nx-followCard-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.nx-followCard-infoUserName {
+    opacity: .6;
+}
+
+.nx-followCard-avatar {
+    width: 48px;
+    height: 48px;
+    border-radius: 1000px;
+}
+
+.nx-followCard-button {
+    margin-left: 16px;
+    border: 0;
+    border-radius: 999px;
+    padding: 6px 16px;
+    font-weight: bold;
+    transition: 0.3s ease background-color;
+}
+
+.nx-followCard-follow {
+    display: block;
+}
+
+.nx-followCard-button:hover {
+    opacity: .8;
+}
+
+.nx-followCard-button.is-following {
+    border: 1px solid #bbb;
+    background: transparent;
+    color: #fff;
+    width: 140px;
+}
+
+.nx-followCard-button.is-following:hover {
+    background-color: rgb(255, 0, 0, 0.178);
+    color: red;
+    border: 1px solid red;
+    transition: 0.3s ease all;
+}
+
+.nx-followCard-button.is-following:hover .nx-followCard-follow {
+    display: none;
+}
+
+.nx-followCard-button.is-following:hover .nx-followCard-stopFollow {
+    display: block;
+}
+
+
+
+.nx-followCard-stopFollow {
+    display: none;
+}
